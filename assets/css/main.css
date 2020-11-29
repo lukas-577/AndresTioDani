@@ -3801,3 +3801,9 @@ body.is-mobile.landing #footer {
     width: 100%;
     height: auto;
 }
+
+#videos {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
