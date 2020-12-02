@@ -1,3 +1,4 @@
+@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
@@ -2784,10 +2785,11 @@ button:disabled,
 
 .wrapper.style2 {
     background-color: #2e3842;
+    color: white;
 }
 
 .wrapper.style3 {
-    background-color: #505393;
+    background-color: #2f314d;
     color: #d3d4e4;
 }
 
@@ -3441,10 +3443,11 @@ body.is-menu-visible #menu {
 #banner p {
     letter-spacing: 0.225em;
     text-transform: uppercase;
+    color: white;
 }
 
 #banner p a {
-    color: inherit;
+    color: white;
 }
 
 #banner .more {
@@ -3462,7 +3465,7 @@ body.is-menu-visible #menu {
     transform: translateY(0);
     border: none;
     bottom: 0;
-    color: inherit;
+    color: white;
     font-size: 0.8em;
     height: 8.5em;
     left: 50%;
@@ -3804,5 +3807,10 @@ body.is-mobile.landing #footer {
 
 #videos {
     width: 100%;
+    height: auto;
+}
+
+#imagenCabecera {
+    width: 60%;
     height: auto;
 }
