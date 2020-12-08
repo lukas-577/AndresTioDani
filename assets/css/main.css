@@ -3619,10 +3619,10 @@ body.is-preload #banner:after {
 
 #main>header {
     padding: 12em 0 10em 0;
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../../images/banner.jpg");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner2.jpg");
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner3.jpg");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3648,7 +3648,7 @@ body.is-preload #banner:after {
 
 @media screen and (max-width: 1680px) {
     #main>header {
-        padding: 10em 0 8em 0;
+        padding: 12%;
     }
 }
 
@@ -3797,7 +3797,7 @@ body.is-mobile.landing #footer {
     opacity: 0.5;
     padding-left: 0%;
     padding-bottom: 0%;
-    padding-top: 40%;
+    padding-top: 0%;
 }
 
 #imagenCentrada {
@@ -3832,4 +3832,132 @@ body.is-mobile.landing #footer {
     filter: blur(15px);
     transform: scale(1.2, 1.4);
     background-image: url("../../images/banner.jpg");
+}
+
+
+/* Main2 */
+
+#main2>header {
+    padding: 12em 0 10em 0;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner3.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner3.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner3.jpg");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner3.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#main2>header h2 {
+    font-size: 1.75em;
+    margin: 0 0 0.5em 0;
+}
+
+#main2>header p {
+    color: inherit;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+    top: 0;
+}
+
+#main2>header p a {
+    color: inherit;
+}
+
+@media screen and (max-width: 1680px) {
+    #main2>header {
+        padding: 18%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #main2>header {
+        padding: 8em 3em 6em 3em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #main2>header {
+        padding: 10em 3em 8em 3em;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #main2>header {
+        padding: 5em 3em 3em 3em;
+    }
+    #main2>header h2 {
+        font-size: 1.25em;
+        margin: 0 0 1em 0;
+    }
+}
+
+body.is-mobile #main2>header {
+    background-attachment: scroll;
+}
+
+
+/* Main3 */
+
+#main3>header {
+    padding: 12em 0 10em 0;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner4.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner4.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner4.jpg");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner4.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#main3>header h2 {
+    font-size: 1.75em;
+    margin: 0 0 0.5em 0;
+}
+
+#main3>header p {
+    color: inherit;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+    top: 0;
+}
+
+#main3>header p a {
+    color: inherit;
+}
+
+@media screen and (max-width: 1680px) {
+    #main3>header {
+        padding: 18%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #main3>header {
+        padding: 8em 3em 6em 3em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #main3>header {
+        padding: 10em 3em 8em 3em;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #main3>header {
+        padding: 5em 3em 3em 3em;
+    }
+    #main3>header h2 {
+        font-size: 1.25em;
+        margin: 0 0 1em 0;
+    }
+}
+
+body.is-mobile #main3>header {
+    background-attachment: scroll;
 }
