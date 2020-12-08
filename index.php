@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
     //error_reporting( E_ALL ); # REMOVE // FOR DEBUG
     $from = ""; // Email con el dominio del Hosting para evitar SPAM
     $fromName = "Abasa-WEB"; // Nombre que saldrá en el email recibido
-    $to = "lukas_skyry_14@hotmail.cl"; // Dirección donde se enviará el formulario
+    $to = "a.badilla@absaa.es"; // Dirección donde se enviará el formulario
     $subject = $_POST['validarAsunto']; // Asunto del Formulario
 
     /* Componemos el mensaje */

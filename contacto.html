@@ -36,6 +36,7 @@
                                 <li><a href="Puertas Antiokupa.html">Puertas</a></li>
                                 <li><a href="Trabajo.html">Trabajos</a></li>
                                 <li><a href="Visión y misión.html">Visión y misión</a></li>
+                                <li><a href="contacto.html">contacto</a></li>
                             </ul>
                             <br>
                             <ul>
@@ -50,59 +51,63 @@
         <!-- Main -->
         <article id="main3">
             <header>
-                <h2>Visión y Misión</h2>
-                <p></p>
+                <h2>PONTE EN CONTACTO CON NOSOTROS</h2>
+                <h5>ESTAREMOS ENCANTADOS DE AYUDARTE</h5>
             </header>
             <section class="wrapper style5">
                 <!-- INICIO FORMULARIO HTML -->
-                <form method="POST" action="index.php" class="needs-validation" novalidate>
+                <div class="container">
+                    <div class=" justify-content-center align-items-center minh-100">
+                        <form method="POST" action="index.php" class="needs-validation" novalidate>
 
-                    <div class="form-row mt-5">
-                        <div class="col-md-4 mb-3">
-                            <label for="validarNombre">Nombre:<span class="red">*</span></label>
-                            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
-                        </div>
+                            <div class="form-row mt-5">
+                                <div class="col-md-4 mb-3">
+                                    <label for="validarNombre">Nombre:<span class="red">*</span></label>
+                                    <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+                                    <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="validarEmail">Email:<span class="red">*</span></label>
+                                    <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="validarTelefono">Teléfono:</label>
+                                    <input type="text" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="validarAsunto">Asunto:</label>
+                                    <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+                                <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
+                            </div>
+
+                            <div class="form-group mb-10">
+                                <button class="btn btn-danger" type="submit" name="submit">Enviar</button>
+                                <button class="btn btn-secondary" type="reset" name="reset">Limpiar</button>
+                            </div>
+
+                        </form>
                     </div>
-
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
-                            <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validarEmail">Email:<span class="red">*</span></label>
-                            <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validarTelefono">Teléfono:</label>
-                            <input type="text" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validarAsunto">Asunto:</label>
-                            <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
-                        <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
-                    </div>
-
-                    <div class="form-group mb-10">
-                        <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
-                        <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
-                    </div>
-
-                </form>
+                </div>
             </section>
         </article>
 
