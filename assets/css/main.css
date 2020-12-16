@@ -3648,13 +3648,13 @@ body.is-preload #banner:after {
 
 @media screen and (max-width: 1680px) {
     #main>header {
-        padding: 12%;
+        padding: 17em 17em 17em 17em;
     }
 }
 
 @media screen and (max-width: 1280px) {
     #main>header {
-        padding: 8em 3em 6em 3em;
+        padding: 17em 17em 17em 17em;
     }
 }
 
@@ -3868,13 +3868,13 @@ body.is-mobile.landing #footer {
 
 @media screen and (max-width: 1680px) {
     #main2>header {
-        padding: 18%;
+        padding: 17em 17em 17em 17em;
     }
 }
 
 @media screen and (max-width: 1280px) {
     #main2>header {
-        padding: 8em 3em 6em 3em;
+        padding: 17em 17em 17em 17em;
     }
 }
 
@@ -3932,13 +3932,13 @@ body.is-mobile #main2>header {
 
 @media screen and (max-width: 1680px) {
     #main3>header {
-        padding: 18%;
+        padding: 17em 17em 17em 17em;
     }
 }
 
 @media screen and (max-width: 1280px) {
     #main3>header {
-        padding: 8em 3em 6em 3em;
+        padding: 17em 17em 17em 17em;
     }
 }
 
