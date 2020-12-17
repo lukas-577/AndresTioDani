@@ -3965,3 +3965,12 @@ body.is-mobile #main3>header {
 .minh-100 {
     height: 100vh;
 }
+
+@font-face {
+    font-family: "miFuente";
+    src: url(../css/letra.ttf);
+}
+
+#fuente {
+    font-family: "miFuente";
+}
