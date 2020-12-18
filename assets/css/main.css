@@ -3974,3 +3974,196 @@ body.is-mobile #main3>header {
 #fuente {
     font-family: "miFuente";
 }
+
+
+/* para cuadrar puntos */
+
+.tb {
+    word-spacing: 10.1em;
+}
+
+.tb1 {
+    word-spacing: 9em;
+}
+
+.tb2 {
+    word-spacing: 3.7em;
+}
+
+.tb3 {
+    word-spacing: 7.8em;
+}
+
+.tb4 {
+    word-spacing: 9em;
+}
+
+img.derecha {
+    float: right;
+}
+
+.wrapper.style8 {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: #c8ece9;
+}
+
+.wrapper.style8 strong,
+.wrapper.style8 b {
+    color: #ffffff;
+}
+
+.wrapper.style8 h2,
+.wrapper.style8 h3,
+.wrapper.style8 h4,
+.wrapper.style8 h5,
+.wrapper.style8 h6 {
+    color: #ffffff;
+}
+
+.wrapper.style8 hr {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 blockquote {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 code {
+    background: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style8 header p {
+    color: #a6e0db;
+}
+
+.wrapper.style8 header.major h2,
+.wrapper.style8 header.major h3,
+.wrapper.style8 header.major h4,
+.wrapper.style8 header.major h5,
+.wrapper.style8 header.major h6 {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 header.major p {
+    color: #c8ece9;
+}
+
+.wrapper.style8 label {
+    color: #ffffff;
+}
+
+.wrapper.style8 input[type="text"],
+.wrapper.style8 input[type="password"],
+.wrapper.style8 input[type="email"],
+.wrapper.style8 select,
+.wrapper.style8 textarea {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style8 select {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(0, 0, 0, 0.125)' /%3E%3C/svg%3E");
+}
+
+.wrapper.style8 select option {
+    color: #ffffff;
+    background: #21b2a6;
+}
+
+.wrapper.style8 input[type="checkbox"]+label,
+.wrapper.style8 input[type="radio"]+label {
+    color: #c8ece9;
+}
+
+.wrapper.style8 input[type="checkbox"]+label:before,
+.wrapper.style8 input[type="radio"]+label:before {
+    background: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style8 input[type="checkbox"]:checked+label:before,
+.wrapper.style8 input[type="radio"]:checked+label:before {
+    background: #ffffff;
+    color: #21b2a6;
+}
+
+.wrapper.style8 ::-webkit-input-placeholder {
+    color: #a6e0db !important;
+}
+
+.wrapper.style8 :-moz-placeholder {
+    color: #a6e0db !important;
+}
+
+.wrapper.style8 ::-moz-placeholder {
+    color: #a6e0db !important;
+}
+
+.wrapper.style8 :-ms-input-placeholder {
+    color: #a6e0db !important;
+}
+
+.wrapper.style8 .formerize-placeholder {
+    color: #a6e0db !important;
+}
+
+.wrapper.style8 .icon.major {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 ul.alt li {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 table tbody tr {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 table tbody tr:nth-child(2n+1) {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style8 table th {
+    color: #ffffff;
+}
+
+.wrapper.style8 table thead {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 table tfoot {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 table.alt tbody tr td {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style8 input[type="submit"],
+.wrapper.style8 input[type="reset"],
+.wrapper.style8 input[type="button"],
+.wrapper.style8 button,
+.wrapper.style8 .button {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
+    color: #ffffff;
+}
+
+.wrapper.style8 input[type="submit"]:hover,
+.wrapper.style8 input[type="reset"]:hover,
+.wrapper.style8 input[type="button"]:hover,
+.wrapper.style8 button:hover,
+.wrapper.style8 .button:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrapper.style8 input[type="submit"]:active,
+.wrapper.style8 input[type="reset"]:active,
+.wrapper.style8 input[type="button"]:active,
+.wrapper.style8 button:active,
+.wrapper.style8 .button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 736px) {
+    .wrapper.style8 .features li {
+        border-top-color: rgba(0, 0, 0, 0.125);
+    }
+}
