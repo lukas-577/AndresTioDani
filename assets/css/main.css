@@ -3739,7 +3739,7 @@ body.is-mobile #main>header {
         display: block;
         line-height: 1.65em;
         margin: 0;
-        padding: 6em 0 4em 0;
+        padding: 0.5em 0;
     }
 }
 
@@ -3813,7 +3813,7 @@ body.is-mobile #main>header {
         display: block;
         line-height: 1.65em;
         margin: 0;
-        padding: 6em 0 4em 0;
+        padding: 0.5em 0;
     }
 }
 
@@ -4073,6 +4073,29 @@ body.is-mobile #main3>header {
 
 .tb4 {
     word-spacing: 9em;
+}
+
+
+/* para cuadrar puntos en ingles */
+
+.tb5 {
+    word-spacing: 10em;
+}
+
+.tb6 {
+    word-spacing: 10.4em;
+}
+
+.tb7 {
+    word-spacing: 3.9em;
+}
+
+.tb8 {
+    word-spacing: 8.2em;
+}
+
+.tb9 {
+    word-spacing: 9.3em;
 }
 
 img.derecha {
