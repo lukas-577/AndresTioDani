@@ -3685,6 +3685,9 @@ body.is-mobile #main>header {
     padding: 6em 0 4em 0;
     background-color: black;
     text-align: center;
+    background-image: url(../../images/logoNegro2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 #footer .icons {
@@ -3736,19 +3739,93 @@ body.is-mobile #main>header {
         display: block;
         line-height: 1.65em;
         margin: 0;
-        padding: 0.5em 0;
+        padding: 6em 0 4em 0;
     }
 }
 
 @media screen and (max-width: 980px) {
     #footer {
-        padding: 4em 3em 2em 3em;
+        padding: 6em 0 4em 0;
     }
 }
 
 @media screen and (max-width: 736px) {
     #footer {
-        padding: 3em 2em 1em 2em;
+        padding: 6em 0 4em 0;
+    }
+}
+
+
+/* footer2 */
+
+#footer2 {
+    padding: 6em 0 4em 0;
+    background-color: black;
+    text-align: center;
+}
+
+#footer2 .icons {
+    font-size: 1.25em;
+}
+
+#footer2 .icons a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer2 .icons a:hover {
+    color: #fff;
+}
+
+#footer2 .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#footer2 .copyright li {
+    border-left: solid 1px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    line-height: 1em;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+#footer2 .copyright li:first-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#footer2 .copyright li a {
+    color: inherit;
+}
+
+#footer2 .copyright li a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    #footer2 .copyright li {
+        border: 0;
+        display: block;
+        line-height: 1.65em;
+        margin: 0;
+        padding: 6em 0 4em 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #footer2 {
+        padding: 6em 0 4em 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #footer2 {
+        padding: 6em 0 4em 0;
     }
 }
 
@@ -4000,10 +4077,10 @@ body.is-mobile #main3>header {
 
 img.derecha {
     float: right;
+    width: 120px;
 }
 
 img.derecha2 {
-    float: right;
     height: 230px;
     margin-top: -175px;
     padding-right: 0;
