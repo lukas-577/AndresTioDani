@@ -3683,7 +3683,7 @@ body.is-mobile #main>header {
 
 #footer {
     padding: 6em 0 4em 0;
-    background-color: #1d242a;
+    background-color: black;
     text-align: center;
 }
 
@@ -3768,7 +3768,7 @@ body.landing #page-wrapper {
 }
 
 body.landing #footer {
-    background-color: rgba(29, 36, 42, 0.9);
+    background-color: black;
 }
 
 body.is-mobile.landing #page-wrapper {
@@ -3787,7 +3787,7 @@ body.is-mobile.landing .wrapper.style4 {
 }
 
 body.is-mobile.landing #footer {
-    background-color: #1d242a;
+    background-color: black;
 }
 
 
@@ -4000,6 +4000,14 @@ body.is-mobile #main3>header {
 
 img.derecha {
     float: right;
+}
+
+img.derecha2 {
+    float: right;
+    height: 230px;
+    margin-top: -175px;
+    padding-right: 0;
+    width: auto;
 }
 
 .wrapper.style8 {
