@@ -4052,52 +4052,6 @@ body.is-mobile #main3>header {
     font-family: "miFuente";
 }
 
-
-/* para cuadrar puntos */
-
-.tb {
-    word-spacing: 10.1em;
-}
-
-.tb1 {
-    word-spacing: 9em;
-}
-
-.tb2 {
-    word-spacing: 3.7em;
-}
-
-.tb3 {
-    word-spacing: 7.8em;
-}
-
-.tb4 {
-    word-spacing: 9em;
-}
-
-
-/* para cuadrar puntos en ingles */
-
-.tb5 {
-    word-spacing: 10em;
-}
-
-.tb6 {
-    word-spacing: 10.4em;
-}
-
-.tb7 {
-    word-spacing: 3.9em;
-}
-
-.tb8 {
-    word-spacing: 8.2em;
-}
-
-.tb9 {
-    word-spacing: 9.3em;
-}
-
 img.derecha {
     float: right;
     width: 120px;
