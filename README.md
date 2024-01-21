@@ -1,4 +1,4 @@
-# Actualmente la pagina se encuentra en mantencion
+# Actualmente la pagina se encuentra en mantención
 https://absaa.es/ 
 
 # Esta en githubPages
